@@ -8,14 +8,57 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="467ba05f-7393-465f-9205-b9e250f6e657" name="Default Changelist" comment="" />
+    <list default="true" id="467ba05f-7393-465f-9205-b9e250f6e657" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/bottomnavigationviewex/BottomNavigationViewEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/bottomnavigationviewex/BottomNavigationViewInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_center_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/snippet_top_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/snippet_top_prolfilebar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/profile_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/home/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/home/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/like/LikeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/like/LikeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/profile/ProfileActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/profile/ProfileActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/search/SearchActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/search/SearchActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/share/ShareActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/share/ShareActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/utils/BottomNavigationViewHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/utils/BottomNavigationViewHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_bottom_navigation_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_bottom_navigation_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Rakesh\.android\avd\Nexus_One_API_28_2.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\VasudevanR\.android\avd\Pixel_2_API_29.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -52,8 +95,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="Kotlin Class" />
+        <option value="resourceFile" />
         <option value="layoutResourceFile" />
       </list>
     </option>
@@ -62,7 +105,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="25KQ9Omw5IhHKeaQb33G892E0HN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,25 +116,33 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Android/Office/InstaMojo/app/src/main/java/com/raksexplore/instamojo/bottomnavigationviewex/BottomNavigationViewEx.java_BottomNavigationViewEx_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Android/Office/InstaMojo/app/src/main/java/com/raksexplore/instamojo/bottomnavigationviewex/BottomNavigationViewEx.java_SELECTED" value="BottomNavigationViewEx" />
+    <property name="android-custom-viewC:/Android/Office/InstaMojo/app/src/main/java/com/raksexplore/instamojo/bottomnavigationviewex/BottomNavigationViewInner.java_SELECTED" value="BottomNavigationViewInner" />
     <property name="android-custom-viewC:/Users/Rakesh/AndroidStudioProjects/InstaMojo/app/src/main/java/com/raksexplore/instamojo/meow/bottomnavigation/BezierView.kt_BezierView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-viewC:/Users/Rakesh/AndroidStudioProjects/InstaMojo/app/src/main/java/com/raksexplore/instamojo/meow/bottomnavigation/BezierView.kt_SELECTED" value="BezierView" />
     <property name="android-custom-viewC:/Users/Rakesh/AndroidStudioProjects/InstaMojo/app/src/main/java/com/raksexplore/instamojo/meow/bottomnavigation/MeowBottomNavigation.kt_MeowBottomNavigation_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-viewC:/Users/Rakesh/AndroidStudioProjects/InstaMojo/app/src/main/java/com/raksexplore/instamojo/meow/bottomnavigation/MeowBottomNavigation.kt_SELECTED" value="MeowBottomNavigation" />
     <property name="android-custom-viewC:/Users/Rakesh/AndroidStudioProjects/InstaMojo/app/src/main/java/com/raksexplore/instamojo/meow/bottomnavigation/MeowBottomNavigationCell.kt_SELECTED" value="MeowBottomNavigationCell" />
+    <property name="android-custom-viewC:/Users/VasudevanR/.gradle/caches/modules-2/files-2.1/com.github.ittianyu/BottomNavigationViewEx/2.0.4/4a625175c2beaed42ef779aef650a18a615c129/BottomNavigationViewEx-2.0.4-sources.jar!/com/ittianyu/bottomnavigationviewex/BottomNavigationViewEx.java_BottomNavigationViewEx_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewC:/Users/VasudevanR/.gradle/caches/modules-2/files-2.1/com.github.ittianyu/BottomNavigationViewEx/2.0.4/4a625175c2beaed42ef779aef650a18a615c129/BottomNavigationViewEx-2.0.4-sources.jar!/com/ittianyu/bottomnavigationviewex/BottomNavigationViewEx.java_SELECTED" value="BottomNavigationViewEx" />
+    <property name="android-custom-viewC:/Users/VasudevanR/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.4.0-beta01/4609f0eac57d146f2f30d34a6288a469235a32ca/material-1.4.0-beta01-sources.jar!/com/google/android/material/navigation/NavigationBarView.java_SELECTED" value="NavigationBarView" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Android\Office\InstaMojo\app\src\main\java\com\raksexplore\instamojo" />
       <recent name="C:\Users\Rakesh\AndroidStudioProjects\InstaMojo\app\src\main\res\layout" />
       <recent name="C:\Users\Rakesh\AndroidStudioProjects\InstaMojo\app\src\main\java\com\raksexplore\instamojo\new" />
       <recent name="C:\Users\Rakesh\AndroidStudioProjects\InstaMojo\app\src\main" />
       <recent name="C:\Users\Rakesh\AndroidStudioProjects\InstaMojo\app\src\main\res\values-w600dp" />
-      <recent name="C:\Users\Rakesh\AndroidStudioProjects\InstaMojo\app\src\main\java\com\raksexplore\instamojo" />
     </key>
     <key name="android.template.1305127532">
       <recent name="com.raksexplore.instamojo.ui" />
@@ -171,6 +224,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="467ba05f-7393-465f-9205-b9e250f6e657" name="Default Changelist" comment="" />
@@ -192,19 +248,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/raksexplore/instamojo/ui/profile/ProfileActivity.kt</url>
-          <line>37</line>
-          <properties class="com.raksexplore.instamojo.ui.profile.ProfileActivity" method="loadActivity">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,25 +1,25 @@
 package com.raksexplore.instamojo.ui.home
 
-import android.content.Intent
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 import com.raksexplore.instamojo.R
 import com.raksexplore.instamojo.SectionsPagerAdapter
-import com.raksexplore.instamojo.meow.bottomnavigation.MeowBottomNavigation
-import com.raksexplore.instamojo.ui.like.LikeActivity
-import com.raksexplore.instamojo.ui.profile.ProfileActivity
-import com.raksexplore.instamojo.ui.search.SearchActivity
-import com.raksexplore.instamojo.ui.share.ShareActivity
+import com.raksexplore.instamojo.bottomnavigationviewex.BottomNavigationViewEx
 import com.raksexplore.instamojo.utils.BottomNavigationViewHelper
 
 
 class HomeActivity : AppCompatActivity() {
-    private var bottomNavigationViewEx: MeowBottomNavigation? = null
+    var mContext:Context = this@HomeActivity
+    private var bottomNavigationViewEx: BottomNavigationViewEx? = null
     private val TAG = "HomeActivity"
+    private val ACTIVITY_NUM = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
@@ -54,36 +54,11 @@ class HomeActivity : AppCompatActivity() {
         bottomNavigationViewEx = findViewById(R.id.bottomNavViewBar)
         val bottomNavigationViewHelper = BottomNavigationViewHelper()
         bottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx!!)
-        bottomNavigationViewEx!!.setOnShowListener {
-            model: MeowBottomNavigation.Model -> loadActivity(model)
-        }
+        bottomNavigationViewHelper.enableNavigation(mContext, this, bottomNavigationViewEx!!)
+        val menu: Menu = bottomNavigationViewEx!!.menu
+        val menuItem: MenuItem = menu.getItem(ACTIVITY_NUM)
+        menuItem.isChecked = true
     }
 
-    private fun loadActivity(model: MeowBottomNavigation.Model) {
-        when (model.id) {
-            1 -> {
-                val intent = Intent(this, HomeActivity::class.java)
-                startActivity(intent)
-            }
-            2 -> {
-                val intent = Intent(this, SearchActivity::class.java)
-                startActivity(intent)
-            }
-            3 -> {
-                val intent = Intent(this, ShareActivity::class.java)
-                startActivity(intent)
-            }
-            4 -> {
-                val intent = Intent(this, LikeActivity::class.java)
-                startActivity(intent)
-            }
-            5 -> {
-                val intent = Intent(this, ProfileActivity::class.java)
-                startActivity(intent)
-            }
-            else -> {
-                null
-            }
-        }
-    }
+
 }

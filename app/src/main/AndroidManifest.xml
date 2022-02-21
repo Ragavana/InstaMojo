@@ -10,17 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.ChatActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.CameraActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.HomeActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_home2" />
-        <activity
             android:name=".ui.home.HomeActivity"
+            android:launchMode="singleTop"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,14 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.InstaMojo.NoActionBar" />
-        <activity android:name=".ui.like.LikeActivity" />
-        <activity android:name=".ui.profile.ProfileActivity" />
-        <activity android:name=".ui.search.SearchActivity" />
-        <activity android:name=".ui.share.ShareActivity" />
+        <activity android:name=".ui.like.LikeActivity"
+                  android:launchMode="singleTop"
+            />
+        <activity android:name=".ui.profile.ProfileActivity"
+                  android:launchMode="singleTop"
+            />
+        <activity android:name=".ui.search.SearchActivity"
+                  android:launchMode="singleTop"
+            />
+        <activity android:name=".ui.share.ShareActivity"
+                  android:launchMode="singleTop"
+            />
     </application>
 
 </manifest>

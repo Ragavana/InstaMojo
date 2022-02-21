@@ -1,28 +1,29 @@
 package com.raksexplore.instamojo.ui.profile
 
-import android.content.Intent
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import com.raksexplore.instamojo.R
+import com.raksexplore.instamojo.bottomnavigationviewex.BottomNavigationViewEx
 import com.raksexplore.instamojo.utils.BottomNavigationViewHelper
-import com.raksexplore.instamojo.meow.bottomnavigation.MeowBottomNavigation
-import com.raksexplore.instamojo.ui.home.HomeActivity
-import com.raksexplore.instamojo.ui.like.LikeActivity
-import com.raksexplore.instamojo.ui.search.SearchActivity
-import com.raksexplore.instamojo.ui.share.ShareActivity
 
 
 class ProfileActivity : AppCompatActivity() {
-    private var bottomNavigationViewEx: MeowBottomNavigation? = null
+    private var bottomNavigationViewEx: BottomNavigationViewEx? = null
     private val TAG = "HomeActivity"
+    private val ACTIVITY_NUM = 4
+    var mContext: Context = this@ProfileActivity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
         Log.d(TAG, "onCreate: starting.")
         setupBottomNavigationView()
-
-
+        setupToolbar()
     }
 
     private fun setupBottomNavigationView() {
@@ -30,36 +31,28 @@ class ProfileActivity : AppCompatActivity() {
         bottomNavigationViewEx = findViewById(R.id.bottomNavViewBar)
         val bottomNavigationViewHelper = BottomNavigationViewHelper()
         bottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx!!)
-        bottomNavigationViewEx!!.setOnShowListener {
-            model: MeowBottomNavigation.Model -> loadActivity(model)
+        bottomNavigationViewHelper.enableNavigation(mContext, this, bottomNavigationViewEx!!)
+        val menu: Menu = bottomNavigationViewEx!!.menu
+        val menuItem: MenuItem = menu.getItem(ACTIVITY_NUM)
+        menuItem.isChecked = true
+    }
+    private fun setupToolbar() {
+        val toolbar: Toolbar = findViewById<View>(R.id.profileToolBar) as Toolbar
+        setSupportActionBar(toolbar)
+        toolbar.setOnMenuItemClickListener { item ->
+            Log.d(TAG, "onMenuItemClick: clicked menu item: $item")
+            when (item.itemId) {
+                R.id.profileMenu -> Log.d(
+                    TAG,
+                    "onMenuItemClick: Navigating to Profile Preferences."
+                )
+            }
+            false
         }
     }
 
-    private fun loadActivity(model: MeowBottomNavigation.Model) {
-        when (model.id) {
-            1 -> {
-                val intent = Intent(this, HomeActivity::class.java)
-                startActivity(intent)
-            }
-            2 -> {
-                val intent = Intent(this, SearchActivity::class.java)
-                startActivity(intent)
-            }
-            3 -> {
-                val intent = Intent(this, ShareActivity::class.java)
-                startActivity(intent)
-            }
-            4 -> {
-                val intent = Intent(this, LikeActivity::class.java)
-                startActivity(intent)
-            }
-            5 -> {
-                val intent = Intent(this, ProfileActivity::class.java)
-                startActivity(intent)
-            }
-            else -> {
-                null
-            }
-        }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.profile_menu, menu);
+        return true;
     }
 }
